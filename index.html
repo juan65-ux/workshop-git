@@ -4,12 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop-Git</title>
+
+<link rel="stylesheet" href="./style.css">
+
+
 </head>
 <body>
-    <h1>Workshop-Git</h1>
-    <h2>Control de versiones-prueba</h2>
-    <p>Es un sistema que registra cada cambio que se realiza
+    
+    <div class="ttt"><h1>Control de versiones y Git</h1></div>
+    
+    <div class="rrr"><h2>¿Qué es un control de versiones?</h2></div>
+    <div class="ttt"><p>Es un sistema que registra cada cambio que se realiza
         en el código fuente de un proyecto. Esto te permite tener un histórico de todos los
-        cambios producidos en sus ficheros, saber quién lo hizo y cuándo.</p>
-</body>
+        cambios producidos en sus ficheros, saber quién lo hizo y cuándo.</p></div>
+        
+    
+        <div class="yyy"><h2>¿Qué es GIT?</h2></div>
+     <div class="ttt"><p>Git es un software de control
+         de versiones diseñado por Linus Torvalds, pensando
+          en la eficiencia, la confiabilidad y compatibilidad
+           del mantenimiento de versiones de aplicaciones cuando
+            estas tienen un gran número de archivos de código
+             fuente.</p></div>
+             <img  class="im" src="img/git.avif">
+            
+             <div class="yyy"><h2>¿Qué es un repositorio?, 
+                repositorio locales y remotos.</h2></div>
+                <div class="ttt"><p>Un repositorio remoto
+                     se aloja en un servidor remoto (puede estar
+                      en Internet o en un servidor externo; incluso
+                       puede ser el mismo equipo en una ruta diferente) 
+                       y se comparte entre varios miembros del equipo. 
+                       Un repositorio local se aloja en un equipo local 
+                       para un usuario individual.</p></div>
+                       <div class="yyy"><h2>¿Qué es GITHUB?.</h2></div>
+                       <div class="ttt"><p>Un repositorio remoto
+                        se aloja en un servidor remoto (puede estar
+                         en Internet o en un servidor externo; incluso
+                          puede ser el mismo equipo en una ruta diferente) 
+                          y se comparte entre varios miembros del equipo. 
+                          Un repositorio local se aloja en un equipo local 
+                          para un usuario individual.</p></div>
+                          <img  class="im" src="img/github.jpg">
+                          <div class="yyy"><h2>¿Qué es una rama en GIT y 
+                            para qué sirve?.</h2></div>
+                            <div class="ttt"><p>Usa una rama para
+                                 identificar tareas de desarrollo sin 
+                                 afectar otras ramas en el repositorio. 
+                                 Cada repositorio tiene una rama por defecto
+                                  y puede tener muchas otras ramas.</p></div>
+                                  <img  class="im" src="img/rama.webp">
+                                  <div class="yyy"><h2>¿Cuáles son los estados en GIT?</h2></div>
+                                  <div class="ttt"><p>Git tiene tres estados principales en 
+                                    los que se pueden encontrar tus archivos: 
+                                    confirmado (committed), modificado
+                                     (modified), y preparado (staged).</p></div>
+                                     <img  class="im" src="img/estados git.webp">
+                                     <div class="yyy"><h2>¿Qué es la terminal, 
+                                        consola o línea de comandos y para qué sirve?</h2></div>
+                                        <div class="ttt"><p>La ventana, que generalmente es llamada 
+                                            línea de comandos ó interfaz de línea de comandos, 
+                                            es una aplicación basada en texto para ver, manejar 
+                                            y manipular archivos en tu ordenador.</p></div>
+                                            <img  class="im" src="img/terminal.gif">
+                                            <div class="yyy"><h2>Funcionamiento de los comandos</h2></div>
+                                            <div class="ggg"><h2>ls:</h2></div>
+                                            <div class="www"><p> Descripción: Lista el contenido del directorio actual.<br>
+                                                Uso básico: ls<br>
+                                                Ejemplo: Ejecutar ls en un directorio mostrará <br>
+                                                todos los archivos y subdirectorios en ese directorio.</p>
+                                            
+                                                <div class="ggg"><h2>cd-directorio:</h2></div>
+                                                   
+                                                    <div class="www"><p>Descripción: Cambia el directorio de trabajo actual al especificado.<br>
+                                                        Uso básico: cd nombre_directorio<br>
+                                                        Ejemplo: cd documentos cambiará al directorio "documentos" dentro del directorio actual.</p></div>
+                                                        
+                                                        <div class="ggg"><h2>cd .. :</h2></div>
+                                                        
+                                                        <div class="www"><p>Descripción: Cambia el directorio de trabajo actual al directorio
+                                                            padre (el directorio que contiene al directorio actual).<br>
+                                                            Uso básico: cd ..<br>
+                                                            Ejemplo: Si estás en /home/usuario/documentos, ejecutar cd .. te llevará a /home/usuario.
+                                                            </p></div>
+
+                                                            <div class="ggg"><h2>pwd:</h2></div>
+                                                             
+                                                            <div class="www"><p>Descripción: Muestra la ruta completa del directorio de trabajo actual.<br>
+                                                                Uso básico: pwd<br>
+                                                                Ejemplo: Si estás en /home/usuario/documentos, ejecutar pwd mostrará /home/usuario/documentos.
+                                                                </p></div>
+
+                                                                <div class="ggg"><h2>mkdir-nombre:</h2></div>
+                                                                
+                                                                <div class="www"><p>Descripción: Crea un nuevo directorio con el nombre especificado.<br>
+                                                                    Uso básico: mkdir nombre_directorio<br>
+                                                                    Ejemplo: mkdir proyecto creará un nuevo directorio llamado "proyecto" en el directorio actual.</p></div>
+                                                                    
+                                                                    <div class="ggg"><h2>touch-nombre:</h2></div>
+                                                                    
+                                                                    <div class="www"><p>Descripción: Crea un nuevo archivo vacío o actualiza la fecha y hora de modificación de un archivo existente.<br>
+                                                                        Uso básico: touch nombre_archivo<br>
+                                                                        Ejemplo: touch archivo.txt creará un archivo vacío llamado "archivo.txt" si no existe, o actualizará su fecha y hora si ya existe.
+                                                                        </p></div>
+
+                                                                        <div class="ggg"><h2>rm-nombre:</h2></div>
+                                                                       
+                                                                        <div class="www"><p>Descripción: Elimina el archivo especificado.<br>
+                                                                            Uso básico: rm nombre_archivo<br>
+                                                                            Ejemplo: rm archivo.txt eliminará el archivo "archivo.txt".</p></div>
+
+                                                                           
+                                                                            <div class="ggg"><h2>cp-nombre-directorio:</h2></div>
+                                                                           
+                                                                            <div class="www"><p>Descripción: Copia el archivo especificado al directorio especificado.<br>
+                                                                                Uso básico: cp archivo.txt /ruta/al/directorio/<br>
+                                                                                Ejemplo: cp archivo.txt documentos/ copiará "archivo.txt" al directorio "documentos".</p></div>
+
+                                                                               
+                                                                                <div class="ggg"><h2>mv-nombre-directorio:</h2></div>
+                                                                               
+                                                                                <div class="www"><p>Descripción: Mueve el archivo especificado al directorio
+                                                                                     especificado. También se usa para renombrar archivos.<br>
+                                                                                    Uso básico: mv archivo.txt /ruta/al/directorio/<br>
+                                                                                    Ejemplo: mv archivo.txt documentos/ moverá "archivo.txt" al directorio "documentos". Si se proporciona un nuevo 
+                                                                                    nombre en lugar de un directorio, también se puede usar para renombrar el archivo.</p></div>
+
+
+
+
+           
+   
+            </body>
 </html> 
